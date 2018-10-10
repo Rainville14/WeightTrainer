@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3D71FBA216E845300B6E099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D71FB9216E845300B6E099 /* AppDelegate.swift */; };
+		E3D71FBC216E845300B6E099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D71FBB216E845300B6E099 /* ViewController.swift */; };
+		E3D71FBF216E845300B6E099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D71FBD216E845300B6E099 /* Main.storyboard */; };
+		E3D71FC2216E845300B6E099 /* WeightTrainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3D71FC0216E845300B6E099 /* WeightTrainer.xcdatamodeld */; };
+		E3D71FC4216E845300B6E099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D71FC3216E845300B6E099 /* Assets.xcassets */; };
+		E3D71FC7216E845300B6E099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D71FC5216E845300B6E099 /* LaunchScreen.storyboard */; };
+		E3D71FD2216E845300B6E099 /* WeightTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D71FD1216E845300B6E099 /* WeightTrainerTests.swift */; };
+		E3D71FDD216E845300B6E099 /* WeightTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D71FDC216E845300B6E099 /* WeightTrainerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3D71FCE216E845300B6E099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3D71FAE216E845300B6E099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D71FB5216E845300B6E099;
+			remoteInfo = WeightTrainer;
+		};
+		E3D71FD9216E845300B6E099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3D71FAE216E845300B6E099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D71FB5216E845300B6E099;
+			remoteInfo = WeightTrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3D71FB6216E845300B6E099 /* WeightTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D71FB9216E845300B6E099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3D71FBB216E845300B6E099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3D71FBE216E845300B6E099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3D71FC1216E845300B6E099 /* WeightTrainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightTrainer.xcdatamodel; sourceTree = "<group>"; };
+		E3D71FC3216E845300B6E099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3D71FC6216E845300B6E099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3D71FC8216E845300B6E099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D71FCD216E845300B6E099 /* WeightTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D71FD1216E845300B6E099 /* WeightTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrainerTests.swift; sourceTree = "<group>"; };
+		E3D71FD3216E845300B6E099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D71FD8216E845300B6E099 /* WeightTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D71FDC216E845300B6E099 /* WeightTrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrainerUITests.swift; sourceTree = "<group>"; };
+		E3D71FDE216E845300B6E099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3D71FB3216E845300B6E099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D71FCA216E845300B6E099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D71FD5216E845300B6E099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3D71FAD216E845300B6E099 = {
+			isa = PBXGroup;
+			children = (
+				E3D71FB8216E845300B6E099 /* WeightTrainer */,
+				E3D71FD0216E845300B6E099 /* WeightTrainerTests */,
+				E3D71FDB216E845300B6E099 /* WeightTrainerUITests */,
+				E3D71FB7216E845300B6E099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3D71FB7216E845300B6E099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D71FB6216E845300B6E099 /* WeightTrainer.app */,
+				E3D71FCD216E845300B6E099 /* WeightTrainerTests.xctest */,
+				E3D71FD8216E845300B6E099 /* WeightTrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3D71FB8216E845300B6E099 /* WeightTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				E3D71FB9216E845300B6E099 /* AppDelegate.swift */,
+				E3D71FBB216E845300B6E099 /* ViewController.swift */,
+				E3D71FBD216E845300B6E099 /* Main.storyboard */,
+				E3D71FC3216E845300B6E099 /* Assets.xcassets */,
+				E3D71FC5216E845300B6E099 /* LaunchScreen.storyboard */,
+				E3D71FC8216E845300B6E099 /* Info.plist */,
+				E3D71FC0216E845300B6E099 /* WeightTrainer.xcdatamodeld */,
+			);
+			path = WeightTrainer;
+			sourceTree = "<group>";
+		};
+		E3D71FD0216E845300B6E099 /* WeightTrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3D71FD1216E845300B6E099 /* WeightTrainerTests.swift */,
+				E3D71FD3216E845300B6E099 /* Info.plist */,
+			);
+			path = WeightTrainerTests;
+			sourceTree = "<group>";
+		};
+		E3D71FDB216E845300B6E099 /* WeightTrainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3D71FDC216E845300B6E099 /* WeightTrainerUITests.swift */,
+				E3D71FDE216E845300B6E099 /* Info.plist */,
+			);
+			path = WeightTrainerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3D71FB5216E845300B6E099 /* WeightTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D71FE1216E845300B6E099 /* Build configuration list for PBXNativeTarget "WeightTrainer" */;
+			buildPhases = (
+				E3D71FB2216E845300B6E099 /* Sources */,
+				E3D71FB3216E845300B6E099 /* Frameworks */,
+				E3D71FB4216E845300B6E099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightTrainer;
+			productName = WeightTrainer;
+			productReference = E3D71FB6216E845300B6E099 /* WeightTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3D71FCC216E845300B6E099 /* WeightTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D71FE4216E845300B6E099 /* Build configuration list for PBXNativeTarget "WeightTrainerTests" */;
+			buildPhases = (
+				E3D71FC9216E845300B6E099 /* Sources */,
+				E3D71FCA216E845300B6E099 /* Frameworks */,
+				E3D71FCB216E845300B6E099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D71FCF216E845300B6E099 /* PBXTargetDependency */,
+			);
+			name = WeightTrainerTests;
+			productName = WeightTrainerTests;
+			productReference = E3D71FCD216E845300B6E099 /* WeightTrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3D71FD7216E845300B6E099 /* WeightTrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D71FE7216E845300B6E099 /* Build configuration list for PBXNativeTarget "WeightTrainerUITests" */;
+			buildPhases = (
+				E3D71FD4216E845300B6E099 /* Sources */,
+				E3D71FD5216E845300B6E099 /* Frameworks */,
+				E3D71FD6216E845300B6E099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D71FDA216E845300B6E099 /* PBXTargetDependency */,
+			);
+			name = WeightTrainerUITests;
+			productName = WeightTrainerUITests;
+			productReference = E3D71FD8216E845300B6E099 /* WeightTrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3D71FAE216E845300B6E099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RainSplat;
+				TargetAttributes = {
+					E3D71FB5216E845300B6E099 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E3D71FCC216E845300B6E099 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3D71FB5216E845300B6E099;
+					};
+					E3D71FD7216E845300B6E099 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3D71FB5216E845300B6E099;
+					};
+				};
+			};
+			buildConfigurationList = E3D71FB1216E845300B6E099 /* Build configuration list for PBXProject "WeightTrainer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3D71FAD216E845300B6E099;
+			productRefGroup = E3D71FB7216E845300B6E099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3D71FB5216E845300B6E099 /* WeightTrainer */,
+				E3D71FCC216E845300B6E099 /* WeightTrainerTests */,
+				E3D71FD7216E845300B6E099 /* WeightTrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3D71FB4216E845300B6E099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D71FC7216E845300B6E099 /* LaunchScreen.storyboard in Resources */,
+				E3D71FC4216E845300B6E099 /* Assets.xcassets in Resources */,
+				E3D71FBF216E845300B6E099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D71FCB216E845300B6E099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D71FD6216E845300B6E099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3D71FB2216E845300B6E099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D71FBC216E845300B6E099 /* ViewController.swift in Sources */,
+				E3D71FBA216E845300B6E099 /* AppDelegate.swift in Sources */,
+				E3D71FC2216E845300B6E099 /* WeightTrainer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D71FC9216E845300B6E099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D71FD2216E845300B6E099 /* WeightTrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D71FD4216E845300B6E099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D71FDD216E845300B6E099 /* WeightTrainerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3D71FCF216E845300B6E099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3D71FB5216E845300B6E099 /* WeightTrainer */;
+			targetProxy = E3D71FCE216E845300B6E099 /* PBXContainerItemProxy */;
+		};
+		E3D71FDA216E845300B6E099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3D71FB5216E845300B6E099 /* WeightTrainer */;
+			targetProxy = E3D71FD9216E845300B6E099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3D71FBD216E845300B6E099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D71FBE216E845300B6E099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3D71FC5216E845300B6E099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D71FC6216E845300B6E099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3D71FDF216E845300B6E099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3D71FE0216E845300B6E099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3D71FE2216E845300B6E099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RainSplat.WeightTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3D71FE3216E845300B6E099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RainSplat.WeightTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3D71FE5216E845300B6E099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RainSplat.WeightTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightTrainer.app/WeightTrainer";
+			};
+			name = Debug;
+		};
+		E3D71FE6216E845300B6E099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RainSplat.WeightTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightTrainer.app/WeightTrainer";
+			};
+			name = Release;
+		};
+		E3D71FE8216E845300B6E099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RainSplat.WeightTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeightTrainer;
+			};
+			name = Debug;
+		};
+		E3D71FE9216E845300B6E099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RainSplat.WeightTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeightTrainer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3D71FB1216E845300B6E099 /* Build configuration list for PBXProject "WeightTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D71FDF216E845300B6E099 /* Debug */,
+				E3D71FE0216E845300B6E099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D71FE1216E845300B6E099 /* Build configuration list for PBXNativeTarget "WeightTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D71FE2216E845300B6E099 /* Debug */,
+				E3D71FE3216E845300B6E099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D71FE4216E845300B6E099 /* Build configuration list for PBXNativeTarget "WeightTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D71FE5216E845300B6E099 /* Debug */,
+				E3D71FE6216E845300B6E099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D71FE7216E845300B6E099 /* Build configuration list for PBXNativeTarget "WeightTrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D71FE8216E845300B6E099 /* Debug */,
+				E3D71FE9216E845300B6E099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3D71FC0216E845300B6E099 /* WeightTrainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3D71FC1216E845300B6E099 /* WeightTrainer.xcdatamodel */,
+			);
+			currentVersion = E3D71FC1216E845300B6E099 /* WeightTrainer.xcdatamodel */;
+			path = WeightTrainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3D71FAE216E845300B6E099 /* Project object */;
+}
